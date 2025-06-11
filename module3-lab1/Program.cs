@@ -1,6 +1,11 @@
 ﻿Console.WriteLine("Welcome to Module 3!");
 
 // Introduction to Prompt Engineering
+// Principals 4s
+// 1. Single -> Focus on one task at a time
+// 2. Specific -> Explicit and detail
+// 3. Short -> Keep it concise
+// 4. Surround -> Provide context, limitations and examples
 
 // Prompt Engineering Best Practices
 // 1 - Provide clear and specific instructions
