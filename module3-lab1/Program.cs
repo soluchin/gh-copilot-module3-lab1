@@ -25,12 +25,37 @@
 // Step 2: Iterate through each element in the list
 // Step 3: If the element is found, return its index
 // Step 4: If the element is not found, return -1
+int LinearSearch(int[] list, int element)
+{
+    for (int i = 0; i < list.Length; i++)
+    {
+        if (list[i] == element)
+        {
+            return i; // Element found, return index
+        }
+    }
+    return -1; // Element not found
+}
 
 // 4 - Use examples to illustrate the expected output
 // Example:
 // Write a function to calculate the factorial of a number.
 // Input: 5
 // Output: 120
+int Faktorial(int n)
+{
+    // Jika input kurang dari 0, kembalikan -1 // created by copilot
+    if (n < 0) return -1;
+    // Inisialisasi hasil dengan 1 // created by copilot
+    int hasil = 1;
+    // Hitung faktorial dengan perulangan // created by copilot
+    for (int i = 2; i <= n; i++)
+    {
+        hasil *= i;
+    }
+    // Kembalikan hasil faktorial // created by copilot
+    return hasil;
+}
 
 // 5 - Provide another function as an example
 String FunctionXYZ(string input)
@@ -43,3 +68,9 @@ String FunctionXYZ(string input)
     return string.Join(" ", words);
 }
 // Write similar function to FunctionXYZ but using LINQ
+String FunctionXYZLinq(string input)
+{
+    return string.Join(" ", input.Split(' ').Select(word => char.ToUpper(word[0]) + word.Substring(1)));
+    // Fungsi untuk menghitung faktorial dari sebuah angka // created by copilot
+
+}
