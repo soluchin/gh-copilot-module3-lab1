@@ -11,11 +11,11 @@
 // 1 - Provide clear and specific instructions
 // Example: Write a function to filter and return even numbers from a given list
 
-// 2 - Provide context
+// 2 - Provide context and detail
 // Example:
-// Write a simple Web API Application using ASP.NET Core.
-// The application is about pokemon database management.
-// Context: The application should allow users to create, read, update, and delete pokemon.
+// Write a function that return the value of n vibonacci number
+// Context: Dont use recursion, use a loop instead
+// Limitations: The function should handle negative inputs by returning -1
 
 // 3 - Use step-by-step instructions
 // Example:
